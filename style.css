@@ -1,0 +1,308 @@
+html{
+  width: 100%;
+  position: relative;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Poppins'!important;
+    background-color:rgb(246, 246, 246);
+    width: 100%;
+}
+
+.home{
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header{
+    display:flex;     
+    }
+button{
+    color: white;
+    background-color: #EC682C;
+    border: #EC682C;
+    border-radius: 8px;   
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+}
+.bon{
+font-family: 'Peralta', sans-serif;
+font-weight: bold;
+font-size: 30px;
+/* font-weight: 300; */
+/* line-height: 52px; */
+/* letter-spacing: 0em; */
+/* text-align: left; */
+}
+span{
+
+    margin: 15px 40px 20px 40px;
+    font-weight: 10px;
+    font-size: 15px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.menu{
+    line-height: 40px;
+    font-weight: bold;
+    font-size:18px ;
+}
+.travel{
+    color: #4B40C5;    
+    font-size: 30px;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: bold;    
+    padding-left: 40px; 
+    padding-bottom: 5px;  
+    
+}
+.best{
+    color: white;
+    font-size: 20px;
+    padding-left:45px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-bottom: 5px;
+}
+.findbtn{
+    background-color: #4B40C5;
+    margin-left: 40px;
+    
+}
+.headercontent{
+    margin-top: 125px;
+}
+.cat{
+   color:#4B40C5; 
+   text-align: center; 
+   padding: 30px; 
+   font-weight:bold; 
+   /* font-family: Arial, Helvetica, sans-serif; */
+}
+.catsec{
+    font-weight: bold; 
+    font-size:30px; 
+    text-align: center;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.minicard{    
+    width :250px;
+    height:200px;
+    text-align: center;
+    line-height: 25px;
+    margin: 10px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.icon{
+    font-size: 50px;
+    padding: 15px;
+}
+.boxshadow{    
+    border-radius: 5px;
+    box-shadow: 10px 5px gray;    
+    border: 1px solid grey;    
+}
+.top{
+    color: #4B40C5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.topdes{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;    
+    color: #14183E;
+    margin-top: 20px;
+  
+
+}
+.country{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card{
+    /* border-radius: 5px;     */
+    height: 400px;
+    width: 300px;
+    margin: 20px;       
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.font{
+    font-size: 1px;
+    color: gray;
+}
+.iconblue{
+    border: 1px solid #4B40C5;
+    background-color: #4B40C5;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    margin: 3px;
+}
+.iconorange{
+    border: 1px solid #EC682C;
+    background-color:#EC682C;
+    padding:5px;
+    color: white;
+    border-radius: 3px;
+    margin: 3px;
+}
+.iconyellow{
+    border: 1px solid rgb(126, 126, 15);
+    background-color:rgb(126, 126, 15);
+    padding:5px;
+    color: white;
+    border-radius: 3px;
+    margin: 3px;
+}
+.book{
+    padding: 40px;
+    width: 500px; 
+    line-height:25px;
+    
+}
+.girlcard{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    background-color:white;
+    position: relative;
+}
+.handpick{
+ border: 1px solid white;
+ background-color: white;
+ border-radius: 10px;
+ height: 200px;
+ width: 280px;
+ text-align: center;
+ font-size: 13px;
+ padding: 35px;
+ margin: 20px;
+
+}
+.subscribe{
+    border:1px solid white;
+    width:500px;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 100px 10px 10px 10px;
+    height: 150px;
+    background-color: rgb(233, 233, 243);
+    position: relative;
+    color: #39425D;
+}
+ul {
+    list-style-type: none;
+    
+  }
+
+li{
+    padding: 7px;
+}
+.gpay{
+    background-color: black;
+    width: 150px;
+    height:50px;
+    font-size: small;
+    border-radius: 25px;
+    margin: 5px;
+}
+.ficon{
+    font-size: 30px;
+    margin: 10px;
+    background-color: white;
+    color: #39425D;
+
+}
+.padleft{
+    padding: 0px 60px 0px 60px;
+}
+@media only screen and (max-width: 800px) {
+    .home{
+        
+        width: 650px;
+        height: auto;
+    }
+    header{
+        flex-direction: column;
+    }
+    .cat1{
+        
+        flex-direction: column;
+        
+        
+    }
+    .cat{
+        text-align: start;
+    }
+    .catsec{
+        text-align: start;
+    }
+    .top{
+        text-align: left;
+    }
+    .topdes{
+        text-align: left;
+    }
+    .topsel1{
+        flex-direction: column;
+        
+    }
+    .foot1{
+        
+        flex-direction: column;
+        
+    }
+    .book1{
+        flex-direction: column;
+    }
+    .padleft{
+        padding-left: 0px;
+    }
+    .whychoose1{      
+        text-align: left !important;
+        margin: 25px !important;
+    }
+    .why1{
+        margin: 25px !important;
+    }
+    .hand1{
+        flex-direction: column;
+    }
+    .allrights{
+        text-align:left;
+    }
+    .fbicon1{
+      padding: 0 !important;
+    }
+    .subscribe1{
+        margin: 0 !important;
+    }
+    
+    .world1{
+    bottom: 600px;
+    left: 200px !important;
+    }
+    .best1{
+        right: 360px !important;
+        bottom: 295px;
+    }
+    .minicard{
+        width: 350px;
+        height: 200px;
+        margin: 10px 100px 10px 100px;
+    }
+    .girlcard{
+        margin-top: 0px;
+        margin-left:40px;
+    }
+    
+  }
